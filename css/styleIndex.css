@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #8B0000;
+}
+
+span#co1 {
+    color: #ffa600;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffa600 !important;
+}
+
+.nav-link:hover {
+    color: #ffa600 !important;
+}
+
+.nav-link::before {
+    content: "";
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #ffa600 !important;
+}
+
+.nav-link:hover::before {
+    right: 0;
+    left: 0;
+}
+
+a.nav-link.active {
+    display: inline-block;
+}
+
+.jumbo {
+    margin-top: 120px;
+}
+
+.jumbo h1 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.jumbo .covid {
+    color: #fff;
+    background-color: #8B0000;
+    display: inline-block;
+    padding: 12px 20px 12px 20px;
+    border-radius: .65rem;
+}
+
+.jumbo p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.jumbo .paragraf {
+    margin-top: -8px;
+}
+
+.jumbo .col-6 img {
+    display: none;
+}
+
+a.btn {
+    background-color: #8B0000;
+    color: #fff;
+    font-weight: 600;
+}
+
+a.btn:hover {
+    color: #ffa600;
+    transform: scale(1.05);
+}
+
+.panduan {
+    margin-top: 100px;
+}
+
+span#pandu {
+    color: #ffa600;
+    background-color: #8B0000;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+.panduan .image {
+    margin-top: 35px;
+}
+
+.panduan h3 {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.panduan img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 35px;
+    color: #FFAE4F;
+    font-weight: 700;
+}
+
+.panduan .col-md-6 .description-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.panduan .col-md-6 .description-2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.data {
+    margin-top: 100px;
+}
+
+span#co2 {
+    color: #ffa600;
+}
+
+h3.text-center.statis {
+    margin-bottom: 100px;
+}
+
+.data h3 {
+    font-weight: 700;
+}
+
+span#data {
+    color: #ffa600;
+    background-color: #8B0000;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+.data .col-md-4 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.data .col-md-4 p, .data .col-md-4 h4 {
+    margin: 0px;
+    color: #fff;
+}
+
+.data .col-md-4 h4 {
+    padding: 0 0 15px 0;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.data .col-md-4 p {
+    padding: 15px 0 0 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.data i.fas {
+    color: #fff;
+    font-size: 50px;
+}
+
+.pengembang {
+    margin-top: 100px;
+}
+
+span#develop {
+    color: #ffa600;
+    background-color: #8B0000;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+.pengembang h3 {
+    font-weight: 700;
+}
+
+h3.text-center.dev {
+    margin-bottom: 100px;
+}
+
+.pengembang i.fas {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background-color: #343a40;
+}
+
+footer h4 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+footer p {
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+}
+
+footer i.fa-heart {
+    color: #b02a37;
+}
+
+footer i.fab {
+    color: #ffa600;
+    margin: 0 8px 0 0;
+    font-size: 25px;
+}
+
+#bck {
+    background-color: #8B0000;
+}
+
+@media (min-width: 768px) {
+    .jumbo .col-6 img {
+        margin-top: 30px;
+    }
+    .jumbo .col-12 {
+        margin-top: 50px;
+    }
+    .jumbo .col-6 img {
+        display: block;
+        width: 80%;
+    }
+    .description h2 {
+        font-size: 30px;
+        color: #ffa600;
+        font-weight: 700;
+    }
+    .description h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .scrollUp {
+        position: fixed;
+        bottom: 800px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        background: #8B0000 url(../img/up2.png);
+        border-radius: 50%;
+        background-size: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        z-index: 100000;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .scrollUp.active {
+        bottom: 40px;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 36px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    a.nav-link.active {
+        display: inline-block;
+    }
+    .jumbo {
+        margin-top: 80px;
+    }
+    .jumbo .covid {
+        color: #fff;
+        background-color: #8B0000;
+        display: inline-block;
+        padding: 12px 20px 12px 20px;
+        border-radius: .65rem;
+    }
+    .jumbo p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .jumbo .paragraf {
+        margin-top: -16px;
+    }
+    .jumbo .col-6 img {
+        margin-top: 70px;
+    }
+    .jumbo .col-12 {
+        margin-top: 138px;
+    }
+    .jumbo h1 {
+        font-size: 50px;
+    }
+    .jumbo p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .jumbo .col-6 img {
+        display: block;
+    }
+    .panduan {
+        margin-top: 150px;
+    }
+    .panduan .image {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .description h2 {
+        font-size: 40px;
+        color: #FFAE4F;
+        font-weight: 700;
+    }
+    .description h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .description p {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .panduan h3 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .scrollUp {
+        position: fixed;
+        bottom: 800px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        background: #8B0000 url(../img/up2.png);
+        border-radius: 50%;
+        background-size: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        z-index: 100000;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .scrollUp.active {
+        bottom: 40px;
+        visibility: visible;
+        opacity: 1;
+    }
+}

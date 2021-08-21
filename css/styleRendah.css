@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #8B0000;
+}
+
+span#co1 {
+    color: #ffa600;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.hasil {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.hasil p.paragraf {
+    margin-top: -16px;
+}
+
+.hasil h5 {
+    color: #ffa600;
+    font-weight: 600;
+}
+
+span#hasil {
+    color: #ffa600;
+    background-color: #8B0000;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+span#rendah {
+    color: #fff;
+    background-color: #0d6efd;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+span#sedang {
+    color: #fff;
+    background-color: #fd7e14;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+span#tinggi {
+    color: #fff;
+    background-color: #dc3545;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: .5rem;
+}
+
+p.red {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        background-color: #8B0000;
+    }
+    span#co1 {
+        color: #ffa600;
+        font-size: 25px;
+    }
+    .navbar-brand {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .hasil {
+        margin-top: 110px;
+        margin-bottom: 30px;
+    }
+    .hasil p.paragraf {
+        margin-top: -16px;
+    }
+    .hasil h5 {
+        color: #ffa600;
+        font-weight: 600;
+    }
+    span#hasil {
+        color: #ffa600;
+        background-color: #8B0000;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#rendah {
+        color: #fff;
+        background-color: #0d6efd;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#sedang {
+        color: #fff;
+        background-color: #fd7e14;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#tinggi {
+        color: #fff;
+        background-color: #dc3545;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    p.red {
+        color: red;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: #8B0000;
+    }
+    span#co1 {
+        color: #ffa600;
+        font-size: 25px;
+    }
+    .navbar-brand {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .hasil {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .hasil p.paragraf {
+        margin-top: -16px;
+    }
+    .hasil h5 {
+        color: #ffa600;
+        font-weight: 600;
+    }
+    span#hasil {
+        color: #ffa600;
+        background-color: #8B0000;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#rendah {
+        color: #fff;
+        background-color: #0d6efd;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#sedang {
+        color: #fff;
+        background-color: #fd7e14;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    span#tinggi {
+        color: #fff;
+        background-color: #dc3545;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        border-radius: .5rem;
+    }
+    p.red {
+        color: red;
+    }
+}

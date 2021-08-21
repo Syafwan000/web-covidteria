@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #8B0000;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+span#co1 {
+    color: #ffa600;
+    font-size: 25px;
+}
+
+.soal {
+    margin-top: 200px;
+}
+
+.soal h2 {
+    margin-bottom: 25px;
+}
+
+label.form-check-label.btn.btn-outline-primary {
+    margin-bottom: 10px;
+}
+
+label.form-check-label.btn.btn-outline-danger {
+    margin-bottom: 10px;
+}
+
+.col-md-2 {
+    color: #fff;
+    padding: 20px 50px 20px 0;
+}
+
+.col-md-2 h5 {
+    margin: 0;
+}
+
+div.form-check {
+    padding: 0px;
+}
+
+span#tanya {
+    font-weight: 800;
+    color: #ffa600;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        background-color: #8B0000;
+    }
+    .navbar-brand {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    span#co1 {
+        color: #ffa600;
+        font-size: 25px;
+    }
+    .soal {
+        margin-top: 240px;
+    }
+    .soal h2 {
+        margin-bottom: 25px;
+    }
+    label.form-check-label.btn.btn-outline-primary {
+        margin-bottom: 10px;
+    }
+    label.form-check-label.btn.btn-outline-danger {
+        margin-bottom: 10px;
+    }
+    .col-md-2 {
+        color: #fff;
+        padding: 20px 50px 20px 0;
+    }
+    .col-md-2 h5 {
+        margin: 0;
+    }
+    div.form-check {
+        padding: 0px;
+    }
+    span#tanya {
+        font-weight: 800;
+        color: #ffa600;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: #8B0000;
+    }
+    .navbar-brand {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    span#co1 {
+        color: #ffa600;
+        font-size: 25px;
+    }
+    .soal {
+        margin-top: 250px;
+    }
+    .soal h2 {
+        margin-bottom: 25px;
+    }
+    label.form-check-label.btn.btn-outline-primary {
+        margin-bottom: 10px;
+    }
+    label.form-check-label.btn.btn-outline-danger {
+        margin-bottom: 10px;
+    }
+    .col-md-2 {
+        color: #fff;
+        padding: 20px 50px 20px 0;
+    }
+    .col-md-2 h5 {
+        margin: 0;
+    }
+    div.form-check {
+        padding: 0px;
+    }
+    span#tanya {
+        font-weight: 800;
+        color: #ffa600;
+    }
+}
