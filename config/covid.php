@@ -8,7 +8,7 @@ function statikCovid($url) {
     $response = curl_exec($client);
     $result = json_decode($response, true);
 
-    return $result[20];
+    return $result;
 }
 
 ?>

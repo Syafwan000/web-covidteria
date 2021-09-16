@@ -2,12 +2,12 @@
 session_start();
 require 'config/covid.php';
 require 'config/functions.php';
-$data = statikCovid("https://coronavirus-19-api.herokuapp.com/countries");
+$data = statikCovid("https://coronavirus-19-api.herokuapp.com/countries/indonesia");
 if(isset($_SESSION['submit'])) {
     header("Location: build/soal/soal_1.php");
 }
 
-$id = $_SESSION['idAwal'];
+$id = @$_SESSION['idAwal'];
 $_SESSION['awal'] = true;
 
 if(@$_SESSION['rendah'] == "rendah01") {
