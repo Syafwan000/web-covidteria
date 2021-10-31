@@ -1,12 +1,11 @@
-# web-covidteria
-Website kuesioner covid yang dibangun untuk menyadarkan masyarakat untuk berperilaku hidup sehat dan selalu mematuhi protokol kesehatan serta menerapkan social distancing
+## Covidteria
 
-Web kuesioner ini memiliki 10 pertanyaan dengan cukup memilih jawaban :
+<p>Covidteria adalah website kuesioner covid yang dibangun untuk menyadarkan masyarakat untuk berperilaku hidup sehat dan selalu mematuhi protokol kesehatan serta menerapkan social distancing</p>
 
-a. Ya
+<p>Web kuesioner ini memiliki 10 pertanyaan dengan cukup memilih jawaban :</p>
 
-b. Tidak
+- Ya
+- Tidak
+- Kadang-kadang
 
-c. Kadang-kadang
-
-untuk menjawabnya dan akan memperoleh hasil sesuai dengan apa yang anda jawab
+<p>untuk menjawabnya dan akan memperoleh hasil sesuai dengan apa yang anda jawab</p>
